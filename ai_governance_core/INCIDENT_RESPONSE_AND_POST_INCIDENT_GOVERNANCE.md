@@ -1,8 +1,8 @@
 # INCIDENT RESPONSE & POST-INCIDENT GOVERNANCE
 
 ## Document Status
-Version: v1.0  
-Status: Approved – Governance Framework Baseline  
+Version: v1.1  
+Status: Approved – Governance Framework Update (Risk Mitigation & Escalation Clarified)  
 Author: Sashikanta Barik  
 
 ---
@@ -34,11 +34,13 @@ This framework applies to incidents occurring during development, testing, deplo
 
 ## Risk Assessment
 
-| Governance Failure                                  | Risk Level |
-|-----------------------------------------------------|------------|
-| Human-in-the-loop not triggered                     | High       |
-| Human-in-the-loop triggered but no action taken     | High       |
-| Missing or incomplete incident logs                 | High       |
+| Governance Failure                                                   | Risk Level |
+|----------------------------------------------------------------------|------------|
+| Human-in-the-loop not triggered                                      | High       |
+| Human-in-the-loop triggered but no action taken                      | High       |
+| Missing or incomplete incident logs                                  | High       |
+| Post-incident review without action ownership                        | High       |
+| Repeated occurrence of similar incidents without systemic escalation | High       |
 
 ---
 
@@ -100,6 +102,11 @@ Failure to complete post-incident review is a governance failure.
 - Escalation to governance authority
 - Review of operator suitability and process integrity
 
+### Post-incident review without corrective action ownership:
+- Release of post-incident report is blocked until corrective actions and accountable owners are formally recorded
+- Time-bound remediation deadlines are mandatory for all high-risk incidents
+- Escalation to governance authority if actions remain unassigned beyond defined thresholds
+
 ---
 
 ## Decision Accountability
@@ -136,7 +143,8 @@ Failure to complete post-incident review is a governance failure.
 ## Version History
 
 | Version | Status                         | Notes           |
-|--------:|--------------------------------|-----------------|
+|---------|--------------------------------|-----------------|
 | v1.0    | Approved – Governance Baseline | Initial release |
+| v1.1    | Approved – Governance Update   | Risk mitigation, escalation, and corrective action enforcement clarified |
 
 ---
