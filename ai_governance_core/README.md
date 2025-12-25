@@ -115,6 +115,23 @@ Frames governance as a **human responsibility system**.
 
 ---
 
+### 9. Engineering Management → AI Governance Mapping
+Maps **traditional engineering management practices** to **AI governance decision
+responsibilities**, explicitly identifying:
+
+- Where delivery-oriented practices become governance controls
+- Where engineering decisions implicitly carry regulatory or ethical risk
+- How familiar management artifacts translate into governance accountability
+
+This framework **does not redefine engineering management**.  
+Instead, it exposes **governance assumptions already embedded in engineering work**
+and makes them explicit, reviewable, and accountable.
+
+It serves as a **bridge framework** for organizations transitioning from
+software engineering leadership to formal AI governance structures.
+
+---
+
 ## What This Directory Explicitly Does NOT Cover
 
 - Model architecture design
