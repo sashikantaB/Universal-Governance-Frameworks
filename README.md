@@ -12,7 +12,7 @@ Governance here is treated as a **human decision system**, not a compliance chec
 
 ## Core Philosophy
 
-Across domains, governance failures follow the same patterns:
+Across domains, governance failures follow the same structural patterns:
 - Decisions made without ownership
 - Risks accepted without disclosure
 - Authority delegated without limits
@@ -29,62 +29,54 @@ These frameworks aim to prevent those failures by:
 
 ## Repository Structure
 
-### 🔹 Universal-Governance-Frameworks/
-
-#### 1. **ai_governance_core/**
-Foundational frameworks for governing AI systems across their lifecycle, including:
-- Risk tiering and system classification
-- Human oversight and override authority
-- Deployment readiness governance
-- Incident response and disclosure
-- Governance failure mode analysis
-
-This directory establishes the **minimum governance baseline** required before addressing agentic or autonomous AI systems.
+This repository is intentionally organized into **two governance layers** to clearly separate **authoritative governance frameworks** from **applied domain examples**.
 
 ---
 
-#### 2. **traffic-signal-governance/**
-A safety-critical governance application demonstrating how governance principles apply to:
-- Urban infrastructure
-- Real-time automated decision systems
-- Public risk exposure
+### 🔹 1. **ai_governance_core/** — Core Governance Frameworks
 
-Serves as a **concrete, real-world governance exemplar**.
+This directory contains **authoritative, system-level AI governance frameworks** that define governance as an **enforceable decision system**, not an advisory or compliance activity.
 
----
+It includes governance for:
+- Decision authority and escalation
+- Safety gates and release blocking
+- Human oversight and override legitimacy
+- Governance failure taxonomy and known failure modes
+- Risk tiering, deployment readiness, and incident governance
 
-#### 3. **creative_governance/**
-Governance frameworks applied to creative systems such as:
-- Songwriting
-- Content generation
-- Attribution and ownership
-- Ethical boundaries in creative output
+This directory establishes the **minimum governance baseline** required before introducing:
+- Agentic behavior
+- Delegated autonomy
+- Self-directed AI systems
 
-Demonstrates that governance is not limited to regulated or technical domains.
+> These documents are **normative governance artifacts**.  
+> They define who can decide, who can block, when systems must stop, and how failures are handled.
 
----
-
-#### 4. **leadership_governance/**
-Frameworks governing:
-- Decision-making authority
-- Ethical leadership responsibility
-- Accountability in high-impact organizational choices
-
-Treats leadership itself as a system requiring governance.
+See `ai_governance_core/README.md` for detailed coverage.
 
 ---
 
-#### 5. **sports_governance/**
-Applies governance principles to:
-- Athlete development
-- Performance optimization
-- Fairness, safety, and long-term responsibility
+### 🔹 2. **applied_governance_examples/** — Domain Applications
 
-Illustrates governance in human-centric, competitive environments.
+This directory contains **illustrative governance applications** demonstrating how the same governance principles apply across diverse domains.
+
+Included domains:
+- **traffic_signal_governance/** — safety-critical civic systems
+- **leadership_governance/** — organizational decision authority
+- **sports_governance/** — human performance and fairness systems
+- **creative_governance/** — creative and cultural decision boundaries
+
+These examples:
+- Are **non-authoritative**
+- Do **not redefine governance rules**
+- Exist to demonstrate **transferability and generality** of governance principles
+
+They inherit from core governance logic rather than introducing new governance authority.
 
 ---
 
-#### 6. **Standards & Regulatory Alignment**
+### 🔹 3. **Standards & Regulatory References**
+
 Located at the same level as this directory:
 
 - **EU_AI_ACT/**
@@ -92,14 +84,15 @@ Located at the same level as this directory:
 - **NIST_AI_RMF/**
 - **ai-development-policy-framework/**
 
-These directories provide **regulatory, standards, and policy reference points** that inform — but do not replace — the governance frameworks.
+These provide **regulatory and standards context** that inform governance design.
 
 Governance here is **standards-aware but not standards-bound**.
 
 ---
 
-#### 7. **CREDENTIALS_AND_TRAINING.md**
-Documents relevant learning, certifications, and formal training that support the governance perspectives reflected in this repository.
+### 🔹 4. **CREDENTIALS_AND_TRAINING.md**
+
+Documents certifications, formal education, and formal learning that support the governance perspectives reflected in this repository.
 
 ---
 
@@ -110,14 +103,14 @@ Documents relevant learning, certifications, and formal training that support th
 - A policy-only compliance library
 - A theoretical ethics discussion
 
-This repository focuses on **governing decisions**, not building systems.
+This repository governs **decisions about systems**, not how systems are built.
 
 ---
 
 ## Intended Audience
 
 - AI Governance & Responsible AI Specialists
-- Risk & Compliance Leaders
+- AI Risk & Safety Professionals
 - Trust & Safety Teams
 - Infrastructure & Safety Engineers
 - Policy Advisors & Regulators
