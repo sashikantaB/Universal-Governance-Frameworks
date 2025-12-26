@@ -132,6 +132,33 @@ software engineering leadership to formal AI governance structures.
 
 ---
 
+## Governance Authority & Safety Enforcement (Completed)
+
+This repository now includes a foundational governance layer that
+establishes AI governance as an enforceable decision system rather
+than an advisory process.
+
+This layer defines:
+- Governance positioning and scope
+- Explicit decision authority and escalation paths
+- Systematic taxonomy of governance failures
+- Known governance failure modes and breakdown patterns
+- Non-overrideable safety gates and release-blocking authority
+
+These artifacts ensure that safety, accountability, and escalation
+are structurally embedded into the lifecycle before any form of
+agentic or autonomous behavior is introduced.
+
+### Core Governance Artifacts
+
+- `GOVERNANCE_POSITIONING_AND_SCOPE.md`
+- `GOVERNANCE_FAILURE_TAXONOMY.md`
+- `KNOWN_GOVERNANCE_FAILURE_MODES.md`
+- `DECISION_AUTHORITY_AND_ESCALATION_GOVERNANCE.md`
+- `SAFETY_GATES_AND_RELEASE_BLOCKING_GOVERNANCE.md`
+
+---
+
 ## What This Directory Explicitly Does NOT Cover
 
 - Model architecture design
