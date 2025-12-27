@@ -118,6 +118,26 @@ This repository governs **decisions about systems**, not how systems are built.
 
 ---
 
+## Governance Baseline Status
+
+The **ai_governance_core/** directory has been declared a **frozen governance baseline**.
+
+This baseline represents a complete, internally consistent governance
+foundation defining:
+- Decision authority and escalation legitimacy
+- Governance failure identification and prevention
+- Non-overrideable safety gates and release blocking
+- Evidence-based accountability and oversight
+
+All future work in this repository proceeds as:
+- Extensions
+- Domain applications
+- Regulatory mappings
+
+No baseline governance principles are modified retroactively.
+
+---
+
 ## Future Direction
 
 This repository intentionally progresses toward:
@@ -129,6 +149,8 @@ This repository intentionally progresses toward:
 Agentic governance is treated as an **evolution**, not a leap.
 
 ---
+
+
 
 ## Author
 
