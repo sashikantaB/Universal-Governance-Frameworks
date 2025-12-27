@@ -15,6 +15,21 @@ They are designed to support:
 
 ---
 
+## Governance Baseline Status
+
+The governance frameworks contained in this directory constitute a **declared and frozen governance baseline**.
+
+All core governance primitives — including decision authority, escalation control, safety gates, and governance failure handling — are considered **structurally complete** at this stage.
+
+Any future additions, modifications, or extensions **must not alter this baseline**, and may only occur through:
+- External regulatory or standards mappings
+- Governed extensions (e.g., agentic or autonomous governance)
+- Explicit versioned governance evolution
+
+This baseline establishes the **minimum governance integrity required** before introducing agentic or autonomous system behavior.
+
+---
+
 ## Governance Philosophy
 
 Governance is treated as a **decision system**, not a documentation exercise.
