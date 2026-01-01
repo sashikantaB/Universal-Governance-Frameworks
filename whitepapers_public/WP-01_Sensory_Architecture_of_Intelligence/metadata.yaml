@@ -1,0 +1,61 @@
+id: WP-01
+title: "The Sensory Architecture of Intelligence"
+subtitle: "A Framework for AI Governance through Information Hygiene and Ethical Co-Evolution"
+
+author: "Sashikanta Barik"
+date: "2025-12"
+
+status: "Frozen – Final"
+visibility: "Public"
+series_order: 1
+
+paper_type: "White Paper"
+category: "Conceptual & Philosophical Foundation"
+
+patent_candidate: false
+patent_notes: "Conceptual foundation only; no implementation claims."
+
+governance_focus:
+  - Bias Prevention
+  - Information Hygiene
+  - Ethical Alignment
+  - Data Governance
+  - Cognitive Shaping
+
+lifecycle_scope:
+  - Pre-training
+  - Data Ingestion
+  - Algorithm Selection
+  - Hyperparameter Governance
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Foundational governance principles"
+    functions:
+      - GOVERN
+      - MAP
+  ISO_IEC_42001:
+    relevance: "Context, principles, and ethical grounding"
+  OECD_AI_Principles:
+    relevance: "Human-centered values and societal well-being"
+
+related_whitepapers:
+  - WP-02-Automated-Governance-Pipeline
+  - WP-03-AI-Gurukul-Architecture
+
+intended_audience:
+  - AI Governance Leaders
+  - Responsible AI Researchers
+  - Policy Architects
+  - Frontier AI Lab Governance Teams
+
+summary: >
+  Establishes the philosophical and governance foundation for treating
+  data as a sensory influence that shapes intelligence, arguing for
+  proactive bias filtering and information hygiene as the primary
+  mechanism for ethical AI alignment.
+
+notes: >
+  This paper serves as the conceptual anchor for the AI Governance
+  white paper series and is intended for public thought leadership
+  and academic-style discussion.
