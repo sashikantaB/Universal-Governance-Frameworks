@@ -1,0 +1,63 @@
+id: WP-03
+title: "Inference-Time Gurukul Governance"
+subtitle: "A Meta-Cognitive Architecture for Continuous AI Alignment"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 3
+
+paper_type: "White Paper"
+category: "Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual architecture; no implementation claims or sensitive IP included."
+
+governance_focus:
+  - Real-Time Ethical Oversight
+  - Inference-Time Alignment
+  - Meta-Cognitive Supervision
+  - Continuous Compliance
+  - Audit-Ready Traceability
+
+lifecycle_scope:
+  - Inference / Deployment
+  - Real-Time Decision Validation
+  - Supervisory Control
+  - Output Governance
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Operationalizes governance controls at inference"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  ISO_IEC_42001:
+    relevance: "Ethical and governance grounding for autonomous AI"
+  OECD_AI_Principles:
+    relevance: "Human-centered values and continuous alignment"
+
+related_whitepapers:
+  - WP-01_Sensory_Architecture_of_Intelligence
+  - WP-02_Training_Time_Ethical_Governance
+  - WP-04_Automated_Governance_Pipeline  # optional placeholder for implementation layer
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - Policy & Risk Leaders
+  - Frontier AI Lab Governance Teams
+  - Engineers designing high-risk or autonomous AI systems
+
+summary: >
+  Introduces a meta-cognitive governance architecture (Guru Gate) that extends
+  training-time alignment into inference-time supervision. Ensures task-oriented
+  AI agents operate under continuous oversight, aligning outputs with
+  immutable ethical constraints and enabling audit-ready, regulation-compliant AI systems.
+
+notes: >
+  Conceptual governance architecture intended for public thought leadership.
+  Builds on WP-02 (Dharma-Gate) and lays the foundation for operationalization
+  in future technical white papers such as AGP (Automated Governance Pipeline).
