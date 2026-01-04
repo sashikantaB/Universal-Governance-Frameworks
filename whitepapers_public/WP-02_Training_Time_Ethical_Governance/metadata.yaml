@@ -1,0 +1,68 @@
+id: WP-02
+title: "Training-Time Ethical Governance Architecture"
+subtitle: "Dharma-Gate — A Governance-First Approach to AI Alignment"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+
+status: "Conceptual Governance Architecture — Draft"
+visibility: "Public"
+series_order: 2
+
+paper_type: "White Paper"
+category: "Training-Time Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual governance architecture; no algorithms, thresholds, or implementation claims."
+
+governance_focus:
+  - Training-Time Alignment
+  - Ethical Data Governance
+  - Preventive AI Safety
+  - Auditability and Traceability
+  - Governance-by-Design
+
+lifecycle_scope:
+  - Data Ingestion
+  - Pre-training
+  - Training-Time Evaluation
+  - Governance Logging
+  - Feedback into Data Pipelines
+
+framework_alignment:
+  EU_AI_Act:
+    relevance: "Preventive risk mitigation and training-data governance"
+    focus_areas:
+      - Data governance
+      - Risk management
+      - Audit readiness
+  NIST_AI_RMF:
+    relevance: "Operationalization of governance during training"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  OECD_AI_Principles:
+    relevance: "Societal well-being, harm prevention, and accountability"
+
+related_whitepapers:
+  - WP-01-Sensory-Architecture-of-Intelligence
+
+intended_audience:
+  - AI Safety and Alignment Researchers
+  - AI Governance Engineers
+  - Frontier AI Lab Policy Teams
+  - Responsible AI Architects
+
+summary: >
+  Introduces a governance-first architecture for enforcing ethical alignment
+  during AI training rather than at inference time. The paper proposes
+  Dharma-Gate as a conceptual control that evaluates and ejects ethically
+  misaligned data prior to learning, while preserving training continuity
+  and generating audit-ready governance signals.
+
+notes: >
+  This paper extends the philosophical foundations of White Paper I into
+  a concrete training-time governance mechanism. It is intentionally
+  non-operational and designed for public discussion, regulatory alignment,
+  and research-oriented governance exploration.
