@@ -1,0 +1,61 @@
+id: WP-04
+title: "Automated Governance Pipeline"
+subtitle: "Full-Lifecycle AI Governance from Training to Inference"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 4
+
+paper_type: "White Paper"
+category: "Operational Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual architecture only; no implementation claims."
+
+governance_focus:
+  - Training-Time Alignment
+  - Inference-Time Supervision
+  - Continuous Ethical Enforcement
+  - Auditability
+  - Risk Mitigation
+
+lifecycle_scope:
+  - Data Ingestion
+  - Model Training
+  - Inference & Output
+  - Governance Intelligence
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Operational enforcement of governance controls"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "Pre-deployment preventive compliance"
+  ISO_IEC_42001:
+    relevance: "Operational governance and monitoring principles"
+
+related_whitepapers:
+  - WP-02_Training_Time_Ethical_Governance
+  - WP-03_Inference_Time_Gurukul_Governance
+
+intended_audience:
+  - AI Governance Leaders
+  - Responsible AI Researchers
+  - Policy Architects
+  - AI Ops / MLOps Teams
+
+summary: >
+  Defines a conceptual framework for continuous AI governance across the full
+  lifecycle. Integrates training-time alignment and inference-time supervision
+  into an automated pipeline with active control gates and audit-ready outputs.
+
+notes: >
+  This paper serves as the operational anchor in the AI Governance series,
+  bridging philosophical and architectural foundations into enforceable AI
+  controls.
