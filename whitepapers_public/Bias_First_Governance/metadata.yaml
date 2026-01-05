@@ -1,0 +1,65 @@
+id: WP-14
+title: "Bias-First AI Governance"
+subtitle: "Shift-Left Approach for Preventive Bias Management in AI Systems"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 14
+
+paper_type: "White Paper"
+category: "Preventive Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual framework for bias-first governance; no proprietary algorithms disclosed."
+
+governance_focus:
+  - Bias-First Risk Prevention
+  - Data Ingress Governance
+  - Pre-Training Ethical Oversight
+  - Preventive Compliance
+  - Traceable Decision-Making
+
+lifecycle_scope:
+  - Pre-Training Data Assessment
+  - AI Model Learning Phase
+  - Deployment Risk Mitigation
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Supports proactive bias identification and mitigation before training"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  ISO_IEC_42001:
+    relevance: "Accountable AI design and continuous oversight"
+  EU_AI_Act:
+    relevance: "Lifecycle-stage governance for high-risk AI systems"
+  Zero_Trust:
+    relevance: "Data and system assumptions are untrusted until validated"
+
+related_whitepapers:
+  - WP-07_Algorithm_Training_Governance
+  - WP-08_Algorithm_Selection_Governance
+  - WP-11_Data_Governance_Labeling
+  - WP-12_Continuous_Feedback_Governance
+  - WP-13_Algorithm_Hyperparameter_Governance
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - ML Model Developers
+  - Risk & Compliance Officers
+  - Policy and Regulatory Teams
+
+summary: >
+  Establishes bias as the foundational governance control for AI systems.
+  Proposes a shift-left, preventive framework to manage bias before
+  training, enabling safer, more ethical, and accountable AI development.
+
+notes: >
+  Conceptual paper intended for public dissemination. Emphasizes preventive
+  governance, traceable decision-making, and alignment with frontier AI
+  safety practices.
