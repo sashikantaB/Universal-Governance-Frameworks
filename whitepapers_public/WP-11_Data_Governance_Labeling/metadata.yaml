@@ -1,0 +1,78 @@
+id: WP-11
+title: "Data Governance in Labeling"
+subtitle: "Governing Annotation Authority, Bias Injection, and Label Lineage Before Model Training"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 11
+
+paper_type: "White Paper"
+category: "Pre-Training Data Governance Architecture"
+
+patent_candidate: true
+patent_notes: >
+  Conceptual governance framework defining labeling as a governed decision
+  process with graduated authority, confidence-based escalation, discard
+  rules, and full label lineage. No annotation algorithms, thresholds,
+  tooling, or implementation details disclosed.
+
+governance_focus:
+  - Annotation Authority Control
+  - Bias Prevention at Labeling Stage
+  - Human-in-the-Loop Accountability
+  - Confidence-Based Escalation
+  - Label Lineage and Traceability
+  - Preventive Data Contamination Control
+
+lifecycle_scope:
+  - Data Preparation
+  - Data Labeling and Annotation
+  - Pre-Training Quality Assurance
+  - Bias Formation Prevention
+  - Training Data Approval
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Defines governance controls for data preparation, labeling risk, and bias measurement"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  ISO_IEC_42001:
+    relevance: "Supports accountable, auditable AI data governance processes"
+  OECD_AI_Principles:
+    relevance: "Promotes responsible development and human oversight in AI pipelines"
+  EU_AI_Act:
+    relevance: "Training-data governance, bias mitigation, and traceability requirements"
+
+related_whitepapers:
+  - WP-01_Sensory_Architecture_of_Intelligence
+  - WP-02_Training_Time_Ethical_Governance
+  - WP-07_Algorithm_Training_Governance
+  - WP-08_Algorithm_Selection_Governance
+  - WP-09_Output_Governance_Through_Shadow_Exposure
+  - WP-10_Preventive_Monitoring_Governance
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - Data Engineering and Annotation Leads
+  - ML Engineering Managers
+  - Risk & Compliance Officers
+  - Policy and Standards Teams
+
+summary: >
+  Establishes Data Governance in Labeling as a missing preventive control
+  layer in AI systems. The paper reframes annotation as a governed,
+  authority-based decision process by introducing graduated trust,
+  confidence-driven escalation, discard rules, bias monitoring, and full
+  label lineage. It positions labeling as a primary source of bias and
+  instability that must be governed before training begins.
+
+notes: >
+  Conceptual governance architecture intended for public thought leadership.
+  Complements WP-07 and WP-08 by extending training-time governance upstream
+  into data preparation and labeling, ensuring that learning systems are
+  trained only on accountable, bias-controlled, and auditable annotations.
