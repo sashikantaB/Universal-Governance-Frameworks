@@ -1,0 +1,60 @@
+id: WP-06
+title: "The Runtime Governance Framework"
+subtitle: "A Three-Tier Architecture for Safe, Low-Latency, and Self-Healing AI Deployments"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+
+status: "Public Draft"
+visibility: "Public"
+series_order: 6
+
+paper_type: "White Paper"
+category: "Operational & Runtime Governance"
+
+patent_candidate: false
+patent_notes: "Conceptual and architectural framework; no implementation claims."
+
+governance_focus:
+  - Inference-Time Control
+  - Runtime Risk Mitigation
+  - Self-Healing Mechanisms
+  - Ethical Alignment
+  - Operational Safety
+
+lifecycle_scope:
+  - Runtime / Inference
+  - High-Impact Decision Flows
+  - Low-Latency AI Operations
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Runtime safety and operational controls"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "Compliance and risk mitigation for high-risk AI systems"
+
+related_whitepapers:
+  - WP-02_Training_Time_Ethical_Governance
+  - WP-03_Inference_Time_Gurukul_Governance
+  - WP-05_Inference_Governance_Loop
+
+intended_audience:
+  - AI Governance & Safety Teams
+  - Responsible AI Architects
+  - Operations Engineers for High-Risk AI
+  - Policy & Compliance Teams
+
+summary: >
+  Defines a runtime governance architecture embedding a three-tier AI
+  system: Specialist, Coordinator, and Risk Auditor. Introduces
+  low-latency inference, real-time risk evaluation, and self-healing
+  interventions to maintain safety and ethical alignment.
+
+notes: >
+  Serves as a conceptual and operational blueprint for inference-time
+  AI governance. Compatible with prior white papers in the series and
+  aligned with best practices in high-risk, autonomous, and agentic AI deployments.
