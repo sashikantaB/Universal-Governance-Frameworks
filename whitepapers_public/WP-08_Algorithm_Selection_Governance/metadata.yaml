@@ -1,0 +1,65 @@
+id: WP-08
+title: "Algorithm Selection Governance"
+subtitle: "Governing Data, Learning, and Algorithm Selection Before Deployment"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 8
+
+paper_type: "White Paper"
+category: "Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual governance framework; no proprietary algorithms or sensitive IP disclosed."
+
+governance_focus:
+  - Preventive AI Governance
+  - Algorithm Selection Oversight
+  - Learning-State Risk Mitigation
+  - Bias & Drift Control
+  - Audit-Ready Traceability
+
+lifecycle_scope:
+  - Pre-Deployment
+  - Training Governance
+  - Model Selection
+  - Algorithmic Risk Assessment
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Supports governance before deployment; risk mapping and mitigation"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "Alignment with training and algorithm selection requirements"
+  Zero_Trust:
+    relevance: "Training data and algorithm choice are not trusted by default; explicit validation required"
+
+related_whitepapers:
+  - WP-01_Sensory_Architecture_of_Intelligence
+  - WP-02_Training_Time_Ethical_Governance
+  - WP-05_Inference_Governance_Loop
+  - WP-06_Runtime_Governance_Framework
+  - WP-07_Algorithm_Training_Governance
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - Model Risk & Compliance Officers
+  - Policy & Regulatory Teams
+  - Engineers designing autonomous or high-impact AI systems
+
+summary: >
+  Introduces a preventive governance framework for algorithm selection,
+  training oversight, and learning-state control. Ensures that AI systems
+  make explainable and accountable model choices before deployment,
+  minimizing bias, drift, and ungoverned risk.
+
+notes: >
+  Conceptual architecture intended for public dissemination. Builds on prior
+  white papers (WP-02, WP-05, WP-07) and aligns with frontier AI research
+  culture, providing governance-first guidance without implementation claims.
