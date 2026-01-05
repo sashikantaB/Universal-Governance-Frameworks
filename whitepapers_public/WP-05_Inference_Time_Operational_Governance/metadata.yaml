@@ -1,0 +1,66 @@
+id: WP-05
+title: "The Inference Governance Loop"
+subtitle: "Real-Time Containment of AI Inputs and Outputs in High-Risk Systems"
+
+author: "Sashikanta Barik"
+date: "2025-12"
+
+status: "Conceptual Governance Architecture — Public Draft"
+visibility: "Public"
+series_order: 5
+
+paper_type: "White Paper"
+category: "Inference-Time Operational Governance"
+
+patent_candidate: false
+patent_notes: "Conceptual architecture only; no implementation claims."
+
+governance_focus:
+  - Inference-Time Control
+  - Real-Time Safety
+  - Ethical Alignment
+  - Runtime Intervention
+  - Auditability
+
+lifecycle_scope:
+  - Input Screening
+  - Runtime Monitoring
+  - Output Control
+  - Escalation Mechanisms
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Governance at runtime, audit, and escalation"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "High-risk AI system compliance and mitigation"
+  Industry_Standards:
+    relevance: "Operational safety, real-time control loops"
+
+related_whitepapers:
+  - WP-01-Sensory-Architecture-of-Intelligence
+  - WP-02-Training-Time-Ethical-Governance
+  - WP-03-Inference-Time-Gurukul-Governance
+  - WP-04-Operational-Governance-Mechanisms
+
+intended_audience:
+  - AI Governance Leaders
+  - Responsible AI Researchers
+  - Policy Architects
+  - Frontier AI Lab Governance Teams
+  - AI System Operators
+
+summary: >
+  Defines a governance-first framework for enforcing ethical controls
+  during inference. Introduces the Inference Governance Loop (IGL)
+  to assess, filter, and intervene in real-time AI interactions,
+  ensuring high-risk systems remain safe, accountable, and compliant.
+
+notes: >
+  This paper serves as the **inference-time operational governance
+  companion** to earlier training-time and supervisory white papers.
+  It is intended for public thought leadership, academic reference,
+  and research discussion.
