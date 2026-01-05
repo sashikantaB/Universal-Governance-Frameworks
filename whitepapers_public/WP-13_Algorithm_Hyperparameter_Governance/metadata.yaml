@@ -1,0 +1,67 @@
+id: WP-13
+title: "Algorithm and Hyperparameter Governance"
+subtitle: "Controlled Selection and Configuration of AI Algorithms Before Training"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 13
+
+paper_type: "White Paper"
+category: "Training-Time Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual governance framework; no proprietary algorithms or sensitive IP disclosed."
+
+governance_focus:
+  - Algorithm Selection Oversight
+  - Hyperparameter Configuration Governance
+  - Training Risk Mitigation
+  - Pre-Training Approval Control
+  - Audit-Ready Traceability
+  - Escalation & Change Control
+
+lifecycle_scope:
+  - Model Training
+  - Pre-Training Configuration
+  - Hyperparameter Selection
+  - Algorithm Risk Assessment
+  - Governance Approval & Escalation
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Supports governance before training; maps and measures algorithmic and hyperparameter risks"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "Supports high-risk AI governance expectations for pre-training configurations"
+  Zero_Trust:
+    relevance: "Algorithm and hyperparameter choices are not trusted by default; explicit approval required"
+
+related_whitepapers:
+  - WP-01_Sensory_Architecture_of_Intelligence
+  - WP-02_Training_Time_Ethical_Governance
+  - WP-05_Inference_Governance_Loop
+  - WP-06_Runtime_Governance_Framework
+  - WP-07_Algorithm_Training_Governance
+  - WP-12_Continuous_Feedback_Governance
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - Model Risk & Compliance Officers
+  - Policy & Regulatory Teams
+  - ML Engineers designing high-risk AI systems
+
+summary: >
+  Introduces a governance framework for algorithm selection and hyperparameter configuration
+  in AI systems. Ensures pre-training decisions are justified, approved, and auditable, reducing
+  risk and improving traceability before models enter the training pipeline.
+
+notes: >
+  Conceptual architecture intended for public dissemination. Complements prior white papers
+  (WP-02, WP-07, WP-12) and emphasizes training-time governance discipline without implementation
+  or proprietary detail.
