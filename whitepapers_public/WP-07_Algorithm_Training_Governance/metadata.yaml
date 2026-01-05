@@ -1,0 +1,75 @@
+id: WP-07
+title: "Algorithm Training Governance"
+subtitle: "Controlling Learning State, Bias Propagation, and Reversibility in AI Systems"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 7
+
+paper_type: "White Paper"
+category: "Training-Time Governance Architecture"
+
+patent_candidate: true
+patent_notes: >
+  Conceptual governance framework focused on learning-state accountability,
+  convergence control, and reversibility. No algorithms, thresholds, or
+  implementation details disclosed.
+
+governance_focus:
+  - Learning-State Accountability
+  - Bias Prevention Before Convergence
+  - Training Reversibility
+  - Convergence Integrity Monitoring
+  - Explainability Through Traceability
+  - Preventive Risk Control
+
+lifecycle_scope:
+  - Model Training
+  - Pre-Training Data Assessment
+  - Learning Convergence
+  - Bias Formation Control
+  - Pre-Deployment Assurance
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Defines governance controls for training behavior and learning risk"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  ISO_IEC_42001:
+    relevance: "Supports accountable and auditable AI training processes"
+  OECD_AI_Principles:
+    relevance: "Responsible development and prevention of systemic bias"
+  EU_AI_Act:
+    relevance: "Training-data governance, risk mitigation before deployment, auditability"
+
+related_whitepapers:
+  - WP-01_Sensory_Architecture_of_Intelligence
+  - WP-02_Training_Time_Ethical_Governance
+  - WP-05_Inference_Governance_Loop
+  - WP-06_Runtime_Governance_Framework
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - ML Engineering Leaders
+  - Risk & Compliance Officers
+  - Policy and Standards Teams
+  - Organizations developing high-risk or regulated AI systems
+
+summary: >
+  Establishes Algorithm Training Governance as a missing enforcement layer
+  in AI oversight. The paper reframes model training as a governed,
+  stateful process by introducing learning-state accountability,
+  convergence integrity monitoring, bias containment before convergence,
+  and mandatory reversibility. It positions training behavior itself
+  as a first-class governance concern.
+
+notes: >
+  Conceptual governance architecture intended for public thought leadership.
+  Complements WP-02 by extending training-time governance beyond data
+  ingestion into learning dynamics, convergence behavior, and
+  explainability through traceable learning states.
