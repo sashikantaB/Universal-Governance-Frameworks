@@ -1,0 +1,71 @@
+id: WP-15
+title: "Data Preprocessing Governance"
+subtitle: "Governing Training Data Transformation and Lineage Integrity Before Learning"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 15
+
+paper_type: "White Paper"
+category: "Data Governance & Preventive AI Safety"
+
+patent_candidate: false
+patent_notes: >
+  Conceptual governance framework defining preprocessing accountability,
+  lineage integrity, and approval controls. No proprietary algorithms,
+  thresholds, or implementation details disclosed.
+
+governance_focus:
+  - Data Preprocessing Governance
+  - Lineage Integrity & Traceability
+  - Synthetic Data Accountability
+  - Bias Prevention Before Training
+  - Governance-First Data Transformation
+
+lifecycle_scope:
+  - Data Ingestion
+  - Data Preprocessing
+  - Feature Engineering
+  - Pre-Training Governance
+  - Training Readiness Approval
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Establishes governed controls before model training begins"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "Supports training-data governance, traceability, and risk prevention"
+  Zero_Trust:
+    relevance: "Raw and transformed data are not trusted by default; explicit justification and approval required"
+
+related_whitepapers:
+  - WP-01_Sensory_Architecture_of_Intelligence
+  - WP-02_Training_Time_Ethical_Governance
+  - WP-07_Algorithm_Training_Governance
+  - WP-11_Data_Governance_Labeling
+  - WP-14_Bias_First_AI_Governance
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Data Governance Leads
+  - Responsible AI Architects
+  - ML Engineering Leaders
+  - Risk, Compliance & Audit Teams
+
+summary: >
+  Introduces a governance-first framework for data preprocessing,
+  treating data transformation as a safety-critical, irreversible
+  decision that shapes model behavior. The paper enforces justification,
+  lineage traceability, record-level state annotation, synthetic data
+  governance, and approval workflows before training begins.
+
+notes: >
+  Conceptual white paper intended for public thought leadership.
+  Extends shift-left governance by formalizing preprocessing as
+  a governed control layer, complementing bias-first, labeling,
+  and training-time governance frameworks.
