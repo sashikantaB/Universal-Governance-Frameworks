@@ -1,0 +1,73 @@
+id: WP-10
+title: "Preventive Monitoring Governance"
+subtitle: "Shifting AI Oversight from Reactive Threshold Breaches to Proactive Risk Stabilization"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 10
+
+paper_type: "White Paper"
+category: "Runtime Governance & Monitoring"
+
+patent_candidate: false
+patent_notes: >
+  Conceptual governance framework for AI runtime monitoring and preventive intervention.
+  No implementation-level algorithms, thresholds, or proprietary techniques disclosed.
+
+governance_focus:
+  - Proactive Risk Stabilization
+  - Multi-Level Threshold Governance
+  - Input-Level Preventive Controls
+  - Learning-Level Preventive Controls
+  - Model-Level Preventive Controls
+  - Bias as a Dynamic Control Signal
+  - Machine-in-the-Loop Escalation
+  - Governance Auditability
+  - Continuous Operational Oversight
+
+lifecycle_scope:
+  - Runtime Monitoring
+  - Pre-Breach Intervention
+  - Escalation Management
+  - Operational Resilience
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Operationalizes preventive monitoring, escalation, and governance traceability"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "Supports preventive controls, continuous risk mitigation, and lifecycle-aligned governance"
+  Zero_Trust_Assumption:
+    relevance: "Explicitly defined for runtime monitoring and pre-breach interventions"
+  Audit_Ready_Trails:
+    relevance: "Logging, rationale, timestamps, and decision metadata for accountability"
+
+related_whitepapers:
+  - WP-05_Inference_Governance_Loop
+  - WP-07_Algorithm_Training_Governance
+  - WP-08_Algorithm_Selection_Governance
+  - WP-09_Output_Governance_Through_Shadow_Exposure
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - ML Engineering Leaders
+  - Policy & Risk Teams
+  - Organizations developing high-risk or regulated AI systems
+
+summary: >
+  Introduces a preventive monitoring governance framework for AI systems,
+  shifting oversight from reactive threshold breaches to proactive risk
+  stabilization. Establishes multi-level governance thresholds, preventive
+  interventions at input, learning, and model levels, and machine-in-the-loop
+  escalation to improve fairness, resilience, and operational continuity.
+
+notes: >
+  Conceptual architecture intended for public research and thought leadership.
+  Complements WP-09 by operationalizing output governance with pre-breach
+  interventions and preventive monitoring mechanisms for real-time AI systems.
