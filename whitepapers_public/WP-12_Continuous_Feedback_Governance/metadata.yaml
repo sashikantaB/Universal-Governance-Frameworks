@@ -1,0 +1,67 @@
+id: WP-12
+title: "Continuous Feedback Governance"
+subtitle: "Governing Human Trust Signals and System Self-Assessment After Deployment"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 12
+
+paper_type: "White Paper"
+category: "Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual post-deployment governance framework; no proprietary mechanisms or implementation-specific IP."
+
+governance_focus:
+  - Continuous Feedback Governance
+  - Human Trust & Deployer Signals
+  - System Self-Assessment
+  - Preventive Post-Deployment Oversight
+  - Audit-Ready Accountability
+
+lifecycle_scope:
+  - Deployment
+  - Runtime Monitoring
+  - Post-Deployment Governance
+  - Continuous Risk Assessment
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Supports continuous governance through structured feedback, risk measurement, and oversight after deployment"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "Alignment with ongoing monitoring, human oversight, and continuous risk mitigation obligations"
+  Zero_Trust:
+    relevance: "Deployed systems are not trusted by default; behavior and trust must be continuously revalidated"
+
+related_whitepapers:
+  - WP-01_Sensory_Architecture_of_Intelligence
+  - WP-06_Runtime_Governance_Framework
+  - WP-09_Output_Governance_Through_Shadow_Exposure
+  - WP-10_Preventive_Monitoring_Governance
+  - WP-11_Data_Governance_Labeling
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - Model Risk & Compliance Officers
+  - AI Platform & MLOps Leaders
+  - Policy & Regulatory Teams
+
+summary: >
+  Proposes a governance-first framework for continuous feedback in deployed
+  AI systems, combining structured human trust signals with system-generated
+  self-assessment. The approach enables early detection of silent failures,
+  supports preventive escalation, and strengthens long-term accountability
+  beyond static monitoring thresholds.
+
+notes: >
+  Conceptual architecture designed for public repositories and thought
+  leadership. Extends runtime governance concepts introduced in earlier
+  papers (WP-06, WP-09, WP-10) and aligns with frontier AI safety research
+  culture without making implementation or performance claims.
