@@ -1,0 +1,67 @@
+id: WP-20
+title: "Entropy-Gated Learning Governance"
+subtitle: "Training-Time Uncertainty Control for Hallucination-Resilient AI Systems"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 20
+
+paper_type: "White Paper"
+category: "Training-Time Governance Architecture"
+
+patent_candidate: true
+patent_notes: >
+  Conceptual governance framework describing entropy-based learning control.
+  Does not disclose loss functions, thresholds, or implementation-specific
+  algorithms. Suitable for public dissemination with protected IP retained.
+
+governance_focus:
+  - Training-Time Alignment
+  - Uncertainty-Aware Learning Control
+  - Hallucination Prevention at Source
+  - Bias Suppression During Learning
+  - Auditability of Learning Decisions
+
+lifecycle_scope:
+  - Pre-Training Data Intake
+  - In-Training Model Learning
+  - Post-Training Risk Reduction
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Controls learning risk by governing uncertainty during training"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  ISO_IEC_42001:
+    relevance: "Accountable and auditable AI learning processes"
+  EU_AI_Act:
+    relevance: "Risk mitigation during model development and training phases"
+  Zero_Trust:
+    relevance: "No training data is trusted unless uncertainty is within bounds"
+
+related_whitepapers:
+  - WP-14_Bias-First_AI_Governance_Shift-Left
+  - WP-15_Data_Preprocessing_Governance
+  - WP-17_Deployment_Governance_Post-Deployment_Accountability
+  - WP-19_Web_Crawling_Governance
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - ML Engineers and Training Architects
+  - Responsible AI Practitioners
+  - Risk & Compliance Officers
+  - Policy and Standards Bodies
+
+summary: >
+  Establishes entropy as a first-class governance signal during model training.
+  Proposes uncertainty-gated learning controls to prevent hallucination,
+  noise memorization, and latent bias before deployment.
+
+notes: >
+  This white paper is conceptual and governance-focused. It introduces
+  entropy-based learning control as a policy mechanism, not as an
+  implementation specification.
