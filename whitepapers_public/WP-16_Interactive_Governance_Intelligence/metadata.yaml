@@ -1,0 +1,66 @@
+id: WP-16
+title: "Interactive Governance Intelligence (IGI)"
+subtitle: "A Runtime Governance Framework for Responsible AI Evolution"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 16
+
+paper_type: "White Paper"
+category: "Runtime Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual runtime governance framework leveraging interaction signals; no proprietary algorithms or data disclosed."
+
+governance_focus:
+  - Runtime Governance Intelligence
+  - Post-Deployment Safety Oversight
+  - Continuous Alignment Feedback Loops
+  - Human–AI Interaction Governance
+  - Auditable Model Evolution
+
+lifecycle_scope:
+  - Deployment Phase
+  - Runtime Monitoring
+  - Post-Market Risk Discovery
+  - Selective Retraining and Policy Refinement
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Supports continuous monitoring, risk detection, and governance-driven model evolution after deployment"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+      - MANAGE
+  ISO_IEC_42001:
+    relevance: "Operational governance, accountability, and lifecycle oversight for deployed AI systems"
+  EU_AI_Act:
+    relevance: "Post-market monitoring, continuous risk assessment, and traceable governance decisions"
+  Zero_Trust:
+    relevance: "Runtime interaction signals are untrusted by default and require classification, filtering, and governance review"
+
+related_whitepapers:
+  - WP-12_Continuous_Feedback_Governance
+  - WP-14_Bias_First_Governance
+  - WP-15_Data_Preprocessing_Governance
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - Platform and MLOps Engineers
+  - Risk & Compliance Officers
+  - Policy and Regulatory Teams
+
+summary: >
+  Introduces Interactive Governance Intelligence (IGI), a runtime governance
+  framework that treats filtered and safety-relevant human–AI interaction
+  signals as first-class governance intelligence. Enables continuous,
+  auditable, and privacy-preserving AI system evolution after deployment.
+
+notes: >
+  Conceptual paper intended for public dissemination. Emphasizes post-deployment
+  governance, separation of inference and governance intelligence, and alignment
+  with emerging global AI safety and regulatory expectations.
