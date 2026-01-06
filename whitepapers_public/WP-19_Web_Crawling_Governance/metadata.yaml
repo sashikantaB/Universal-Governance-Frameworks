@@ -1,0 +1,66 @@
+id: WP-19
+title: "Web Crawling Governance"
+subtitle: "Authority-Verified Data Collection for Preventive Misinformation and Hallucination Control"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 19
+
+paper_type: "White Paper"
+category: "Preventive Data Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual governance framework for trusted web data collection; no proprietary crawling algorithms or source lists disclosed."
+
+governance_focus:
+  - Data Collection Governance
+  - Authority-Verified Knowledge Ingestion
+  - Misinformation and Hallucination Prevention
+  - Dynamic Whitelist Governance
+  - Human-in-the-Loop Source Approval
+
+lifecycle_scope:
+  - Pre-Training Data Acquisition
+  - Knowledge Source Validation
+  - Training Data Ingress Control
+  - Continuous Source Governance
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Supports preventive risk governance by validating knowledge sources before model learning"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  ISO_IEC_42001:
+    relevance: "Accountable data sourcing, documentation, and continuous oversight"
+  EU_AI_Act:
+    relevance: "Training data governance and risk prevention obligations for high-risk AI systems"
+  Zero_Trust:
+    relevance: "No external data source is trusted without explicit validation and approval"
+
+related_whitepapers:
+  - WP-11_Data_Governance_Labeling
+  - WP-14_Bias-First_AI_Governance_Shift-Left
+  - WP-15_Data_Preprocessing_Governance
+  - WP-17_Deployment_Governance_Post-Deployment_Accountability
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Data Governance Architects
+  - Responsible AI Engineers
+  - Risk & Compliance Officers
+  - Policy and Regulatory Teams
+
+summary: >
+  Establishes a governance-first framework for web data collection in AI systems.
+  Introduces authority-approved source whitelists, AI-assisted source verification,
+  and controlled whitelist evolution to prevent misinformation, hallucination,
+  and ungoverned knowledge ingestion before training.
+
+notes: >
+  Conceptual paper intended for public dissemination. Emphasizes preventive,
+  shift-left governance at the data collection layer, aligning with frontier AI
+  safety practices and avoiding implementation-specific or proprietary claims.
