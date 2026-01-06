@@ -1,0 +1,68 @@
+id: WP-21
+title: "Alignment Governance for Legacy AI Models"
+subtitle: "Progressive Alignment of Pre-Trained Systems Without Full Retraining"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 21
+
+paper_type: "White Paper"
+category: "Post-Training Alignment Governance Architecture"
+
+patent_candidate: true
+patent_notes: >
+  Dual-model alignment framework leveraging entropy-gated inference
+  and zero-propagation learning to govern legacy AI systems toward
+  Responsible AI without retraining or data contamination.
+
+governance_focus:
+  - Legacy Model Alignment
+  - Post-Training Governance
+  - Hallucination Containment
+  - Bias Isolation and Decay
+  - Progressive Responsible AI Evolution
+
+lifecycle_scope:
+  - Post-Training Model Governance
+  - Inference-Time Risk Control
+  - Incremental Alignment Learning
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Controls and mitigates risks in already-deployed AI systems"
+    functions:
+      - GOVERN
+      - MEASURE
+      - MANAGE
+  ISO_IEC_42001:
+    relevance: "Continuous oversight and accountability for operational AI"
+  EU_AI_Act:
+    relevance: "Risk mitigation and governance for legacy high-risk AI systems"
+  Zero_Trust:
+    relevance: "All legacy model outputs are treated as untrusted until validated"
+
+related_whitepapers:
+  - WP-14_Bias-First_AI_Governance_Shift-Left
+  - WP-19_Web_Crawling_Governance
+  - WP-20_Entropy-Gated_Learning_Governance
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Enterprise AI Architects
+  - Responsible AI Engineers
+  - MLOps & Platform Teams
+  - Policy and Regulatory Authorities
+
+summary: >
+  Introduces a governance-first approach to aligning legacy AI models
+  that are already trained on biased or unverified data. Proposes a
+  dual-model architecture where high-entropy outputs are blocked,
+  never learned, and never propagated—allowing a clean alignment model
+  to evolve safely over time.
+
+notes: >
+  Conceptual governance architecture intended for public dissemination.
+  Focuses on post-training control, entropy-based hallucination prevention,
+  and responsible evolution of existing AI systems without disruptive retraining.
