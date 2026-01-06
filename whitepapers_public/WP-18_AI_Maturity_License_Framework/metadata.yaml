@@ -1,0 +1,64 @@
+id: WP-18
+title: "AI Maturity License Framework"
+subtitle: "A Responsibility and Accountability Model for AI Systems"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 18
+
+paper_type: "White Paper"
+category: "Accountability & Responsibility Framework"
+
+patent_candidate: false
+patent_notes: "Conceptual maturity-based accountability framework; no proprietary algorithms or enforcement mechanisms disclosed."
+
+governance_focus:
+  - Maturity-Based Responsibility Allocation
+  - Developer vs Deployer Accountability
+  - Proof-of-Training and Validation
+  - Operational Readiness Verification
+  - Post-Deployment Revalidation
+
+lifecycle_scope:
+  - Pre-Deployment Readiness Assessment
+  - Deployment Authorization
+  - Post-Deployment Drift Review
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Supports accountability assignment, readiness verification, and post-deployment monitoring"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "Clarifies responsibility allocation and deployer obligations for high-risk AI systems"
+  Zero_Trust:
+    relevance: "Assumes models are not trusted without continuous maturity validation"
+
+related_whitepapers:
+  - WP-14_Bias-First_AI_Governance
+  - WP-15_Data_Preprocessing_Governance
+  - WP-16_Interactive_Governance_Intelligence
+  - WP-17_Deployment_Governance
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - ML Model Developers
+  - System Deployers & Operators
+  - Risk & Compliance Officers
+  - Policy and Regulatory Teams
+
+summary: >
+  Proposes an AI maturity-based licensing framework to determine responsibility
+  and accountability across the AI lifecycle. Establishes evidence-driven
+  thresholds to distinguish developer liability from deployer responsibility
+  based on training quality, validation depth, and operational readiness.
+
+notes: >
+  Conceptual framework intended for public dissemination. Focuses on accountability,
+  maturity verification, and responsibility transfer without defining legal enforcement
+  mechanisms or proprietary evaluation systems.
