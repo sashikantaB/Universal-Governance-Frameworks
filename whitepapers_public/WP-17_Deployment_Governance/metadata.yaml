@@ -1,0 +1,63 @@
+id: WP-17
+title: "Deployment Governance"
+subtitle: "Post-Deployment Accountability and Risk-Aligned System Hardening"
+
+author: "Sashikanta Barik"
+date: "2026-01"
+status: "Draft / Conceptual"
+visibility: "Public"
+series_order: 17
+
+paper_type: "White Paper"
+category: "Governance Architecture"
+
+patent_candidate: false
+patent_notes: "Conceptual framework for post-deployment AI governance; no proprietary algorithms disclosed."
+
+governance_focus:
+  - Post-Deployment Oversight
+  - Risk-Aligned Intervention
+  - Audit-Ready Monitoring
+  - Ethical Hardening
+  - Accountability & Escalation
+
+lifecycle_scope:
+  - Post-Deployment Monitoring
+  - Operational Risk Mitigation
+  - System Hardening
+
+framework_alignment:
+  NIST_AI_RMF:
+    relevance: "Supports monitoring, risk mitigation, and intervention after deployment"
+    functions:
+      - GOVERN
+      - MAP
+      - MEASURE
+  EU_AI_Act:
+    relevance: "Post-deployment compliance and lifecycle governance"
+  Zero_Trust:
+    relevance: "Assumes deployed models require continuous validation and monitoring"
+
+related_whitepapers:
+  - WP-07_Algorithm_Training_Governance
+  - WP-08_Algorithm_Selection_Governance
+  - WP-12_Continuous_Feedback_Governance
+  - WP-14_Bias-First_AI_Governance
+  - WP-15_Data_Preprocessing_Governance
+  - WP-16_Interactive_Governance_Intelligence
+
+intended_audience:
+  - AI Governance & Safety Researchers
+  - Responsible AI Architects
+  - ML Model Developers
+  - Risk & Compliance Officers
+  - Policy and Regulatory Teams
+
+summary: >
+  Introduces a governance framework for post-deployment AI oversight, emphasizing 
+  ethical accountability, risk-aligned interventions, and audit-ready logging. 
+  Ensures AI systems evolve responsibly while minimizing downstream societal harm.
+
+notes: >
+  Conceptual architecture for public dissemination. Emphasizes post-deployment monitoring, 
+  operational risk mitigation, and continuous governance alignment with standards.
